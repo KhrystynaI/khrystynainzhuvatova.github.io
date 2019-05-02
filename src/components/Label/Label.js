@@ -1,7 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-
+/**
+*there are default properties
+*/
 export default function Label({ color, background, children }) {
 	const styles = {
 		color,
@@ -19,7 +21,9 @@ Label.propTypes = {
 	 * Label text.
 	 */
 	children: PropTypes.string.isRequired,
-	color: PropTypes.string,
+	color: PropTypes.string,/**
+	* you can choose color to add string in properties
+	*/
 	background: PropTypes.string,
 };
 Label.defaultProps = {

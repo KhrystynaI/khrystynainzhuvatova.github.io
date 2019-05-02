@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import './Button.css';
 
 /**
- * The only true button.
+ * available changes
  */
 export default function Button({ color, size, onClick, disabled, children }) {
 	const styles = {
